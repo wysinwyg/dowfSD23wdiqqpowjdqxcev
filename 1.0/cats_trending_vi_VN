@@ -1,0 +1,31 @@
+{
+  trendingTags: [
+    
+  ],
+  trendingCategories: [
+    {
+      id: "vn_vi_cat_trending_nguoiduatin_video",
+      name: "Video",
+      desc: "desc1",
+      imageUrl: "",
+      rssUrl: "https://www.nguoiduatin.vn/rss/video.rss",
+      parserId: null,
+	  showCategoryName: true,
+      languageId: "vi_VN",
+      publisherId: "nguoiduatin",
+	  maxFeedPerSp = 10
+    },
+    {
+      id: "vn_vi_cat_tienphong_infographics",
+      name: "Infographics",
+      desc: "desc1 trang chủ",
+      imageUrl: "",
+      rssUrl: "https://www.tienphong.vn/rss/infographics-287.rss",
+      parserId: null,
+	  showCategoryName: true,
+      languageId: "vi_VN",
+      publisherId: "tienphong",
+	  maxFeedPerSp = 10
+    }
+  ]
+}
