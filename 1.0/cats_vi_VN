@@ -2,7 +2,7 @@
   thematics: [
     {
       id: "vi_vn_tmt",
-      name: "Tổng Hợp",
+      name: "LOCAL Tổng Hợp",
       desc: "Tin tức Việt Nam trong ngày",
       color: "#ff0000",
       imageUrl: "https://1.bp.blogspot.com/-yBzMyq_53UQ/X9LylRK1IOI/AAAAAAAANbM/57JD6fYkd2g-9waqYcD1fWxnQ588cQPBACLcBGAsYHQ/s0/450fb021-d396-4bda-a70f-e4c0b0bb8720.png",
@@ -213,6 +213,48 @@
       id: "vi_vn_tmt_anninh_sp_quy_dinh",
       name: "Quy định",
       imageUrl: ""
+    },
+	{
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      id: "vi_vn_tmt_thegioi_sp_tong_hop",
+      name: "Tổng hợp",
+      imageUrl: ""
+    },
+	{
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      id: "vi_vn_tmt_thegioi_sp_quan_su",
+      name: "Quân sự",
+      imageUrl: ""
+    },
+	{
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      id: "vi_vn_tmt_thegioi_sp_kinh_te",
+      name: "Kinh tế",
+      imageUrl: ""
+    },
+	{
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      id: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      name: "Tư liệu",
+      imageUrl: ""
+    },
+	{
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      id: "vi_vn_tmt_thegioi_sp_binh_luan",
+      name: "Bình luận",
+      imageUrl: ""
+    },
+	{
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      id: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      name: "Thế giới đó đây",
+      imageUrl: ""
     }
   ],
   publishers: [
@@ -237,7 +279,7 @@
       thumbUrl: "https://static.thanhnien.vn/favicon.ico",
       contactUrl: "https://thanhnien.vn/toa-soan.html",
       isLongImage: false,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_thanhnien",
       languageId: "vi_VN"
     },
     {
@@ -261,7 +303,7 @@
       thumbUrl: "https://static-cms-tpo.zadn.vn/web/App_Themes/img/logo-web.png",
       contactUrl: "https://www.tienphong.vn/contact.tpo",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_tienphong",
       languageId: "vi_VN"
     },
     {
@@ -273,7 +315,7 @@
       thumbUrl: "https://statictuoitre.mediacdn.vn/web_images/favicon.ico",
       contactUrl: "https://tuoitre.vn/thong-tin-toa-soan.htm",
       isLongImage: false,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_tuoitre",
       languageId: "vi_VN"
     },
     {
@@ -285,7 +327,7 @@
       thumbUrl: "http://antt.vn/images/favi.png",
       contactUrl: "http://antt.vn/gioi-thieu.htm",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_antt",
       languageId: "vi_VN"
     },
     {
@@ -405,7 +447,7 @@
       thumbUrl: "https://vtv1.mediacdn.vn/web_images/vtv152.png",
       contactUrl: "https://vtv.vn/hoat-dong-vtv.htm#contactform",
       isLongImage: false,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_vtv",
       languageId: "vi_VN"
     },
 	{
@@ -465,7 +507,7 @@
       thumbUrl: "https://baodautu.vn/templates/themes/images/logo.png",
       contactUrl: "https://baodautu.vn/toa-soan",
       isLongImage: true,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_baodautu",
       languageId: "vi_VN"
     },
 	{
@@ -477,7 +519,7 @@
       thumbUrl: "https://cafebiz.cafebizcdn.vn/web_images/cafeBiz128.png",
       contactUrl: "https://cafebiz.vn/gui-tin-nhanh.chn",
       isLongImage: false,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_cafebiz",
       languageId: "vi_VN"
     },
 	{
@@ -489,7 +531,7 @@
       thumbUrl: "https://posapp.vn/wp-content/uploads/2019/01/cafef-logo.png",
       contactUrl: "https://cafef.vn/",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_cafef",
       languageId: "vi_VN"
     },
 	{
@@ -501,7 +543,7 @@
       thumbUrl: "https://vneconomy.mediacdn.vn/web_images/VNE-20202505.png",
       contactUrl: "https://vneconomy.vn/",
       isLongImage: true,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_vneconomy",
       languageId: "vi_VN"
     },
 	{
@@ -513,7 +555,7 @@
       thumbUrl: "https://static-cms-sggp.zadn.vn/web/app_themes/img/logo.png",
       contactUrl: "https://www.sggp.org.vn/",
       isLongImage: true,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_sggp",
       languageId: "vi_VN"
     },
 	{
@@ -537,7 +579,7 @@
       thumbUrl: "https://erpscan.io/wp-content/uploads/2017/08/20170224130926_24h-logo.png",
       contactUrl: "https://www.24h.com.vn/",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_24h",
       languageId: "vi_VN"
     },
 	{
@@ -561,7 +603,7 @@
       thumbUrl: "https://sohanews.sohacdn.com/icons/soha-180.png",
       contactUrl: "https://soha.vn/",
       isLongImage: false,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_soha",
       languageId: "vi_VN"
     },
 	{
@@ -605,11 +647,11 @@
       name: "Bóng Đá 24H",
       website: "https://bongda24h.vn",
       desc: "Bóng đá 24h, lịch thi đấu, BXH, kết quả bóng đá hôm nay",
-      imageUrl: "https://cdn.bongda24h.vn/images/logo-bongda-tet-duong.svg",
-      thumbUrl: "https://cdn.bongda24h.vn/images/logo-bongda-tet-duong.svg",
+      imageUrl: "https://1.bp.blogspot.com/-0aCPpeO-WOY/YAAxLSGRBbI/AAAAAAAANe0/XZaY0JemavAigjn67z6xst02UlfTUhW-ACLcBGAsYHQ/w200-h74/bongda24h.png",
+      thumbUrl: "https://1.bp.blogspot.com/-0aCPpeO-WOY/YAAxLSGRBbI/AAAAAAAANe0/XZaY0JemavAigjn67z6xst02UlfTUhW-ACLcBGAsYHQ/w200-h74/bongda24h.png",
       contactUrl: "https://bongda24h.vn/lien-he-toa-soan.html",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_bongda24h",
       languageId: "vi_VN"
     },
 	{
@@ -621,7 +663,7 @@
       thumbUrl: "https://admin.bongda.com.vn/img/logo.png",
       contactUrl: "https://www.bongda.com.vn",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_bongda",
       languageId: "vi_VN"
     },
 	{
@@ -629,11 +671,11 @@
       name: "Thể Thao 247",
       website: "https://thethao247.vn",
       desc: "Đọc báo bóng đá, tin thể thao 24h",
-      imageUrl: "https://thethao247.vn/templates/demo/pc/static/img/logo.svg?v=2",
-      thumbUrl: "https://thethao247.vn/templates/demo/pc/static/img/logo.svg?v=2",
+      imageUrl: "https://1.bp.blogspot.com/-w7a9qAKEbsM/YAAKFp8sbWI/AAAAAAAANek/h8EZ5XcwyH8zC8G9fS3jj9w-NX_91GA-QCLcBGAsYHQ/w200-h51/thethao247.png",
+      thumbUrl: "https://1.bp.blogspot.com/-w7a9qAKEbsM/YAAKFp8sbWI/AAAAAAAANek/h8EZ5XcwyH8zC8G9fS3jj9w-NX_91GA-QCLcBGAsYHQ/w200-h51/thethao247.png",
       contactUrl: "https://thethao247.vn/",
       isLongImage: true,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_thethao247",
       languageId: "vi_VN"
     },
 	{
@@ -645,7 +687,7 @@
       thumbUrl: "https://asset.1cdn.vn/khds/images/logo.png",
       contactUrl: "https://khoahocdoisong.vn/",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_khoahocdoisong",
       languageId: "vi_VN"
     },
 	{
@@ -669,7 +711,7 @@
       thumbUrl: "https://autopro8.mediacdn.vn/web_images/auto180.png",
       contactUrl: "https://autopro.com.vn/",
       isLongImage: false,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_autopro",
       languageId: "vi_VN"
     },
 	{
@@ -681,7 +723,7 @@
       thumbUrl: "https://kenh14cdn.com/web_images/k14_logo_new.png",
       contactUrl: "https://kenh14.vn/",
       isLongImage: false,
-      parserId: "parse_guide_6",
+      parserId: "parse_guide_kenh14",
       languageId: "vi_VN"
     },
 	{
@@ -693,7 +735,7 @@
       thumbUrl: "https://1.bp.blogspot.com/-DBgn0HADhHg/X_qhakT7BXI/AAAAAAAANdE/orC3vyJ-_4EhyIYWSXAc3jxklD4O8pKMACLcBGAsYHQ/s0/afamily.png",
       contactUrl: "",
       isLongImage: true,
-      parserId: "parse_guide_6",
+      parserId: "parse_guide_afamily",
       languageId: "vi_VN"
     },
 	{
@@ -705,7 +747,7 @@
       thumbUrl: "https://cdn.eva.vn/images/2017/logo-footer-magazine.png",
       contactUrl: "https://eva.vn/",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_eva",
       languageId: "vi_VN"
     },
 	{
@@ -717,7 +759,7 @@
       thumbUrl: "https://vnanet.vn/Data/Images/logo.png",
       contactUrl: "https://vnanet.vn/vi/introl/lien-he-2054.html",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_thongtanxavn",
       languageId: "vi_VN"
     },
 	{
@@ -741,7 +783,7 @@
       thumbUrl: "http://bocongan.gov.vn/Publishing_Resources/web/portal/images/logo.png",
       contactUrl: "http://congan.com.vn/",
       isLongImage: true,
-      parserId: "parse_guide_2",
+      parserId: "parse_guide_bocongan",
       languageId: "vi_VN"
     },
 	{
@@ -873,7 +915,7 @@
       thumbUrl: "https://baocantho.com.vn/static/templates/version1/homepage/images/graphics-new/logo-small.png?id=1.01",
       contactUrl: "https://baocantho.com.vn/",
       isLongImage: true,
-      parserId: "parse_guide_1",
+      parserId: "parse_guide_baocantho",
       languageId: "vi_VN"
     },
 	{
@@ -885,6 +927,30 @@
       thumbUrl: "https://asset.1cdn.vn/tttctt/css/Pic/fav25092020.png",
       contactUrl: "https://thitruongtaichinhtiente.vn/",
       isLongImage: false,
+      parserId: "parse_guide_1",
+      languageId: "vi_VN"
+    },
+	{
+      id: "giadinhvaphapluat",
+      name: "Gia Đình & Pháp Luật",
+      website: "https://giadinhvaphapluat.vn",
+      desc: "Báo Gia đình và Pháp luật",
+      imageUrl: "https://media.giadinhvaphapluat.vn/static/images/logo.png",
+      thumbUrl: "https://media.giadinhvaphapluat.vn/static/images/logo.png",
+      contactUrl: "https://giadinhvaphapluat.vn/",
+      isLongImage: true,
+      parserId: "parse_guide_1",
+      languageId: "vi_VN"
+    },
+	{
+      id: "nongnghiep",
+      name: "Nông Nghiệp Việt Nam",
+      website: "https://nongnghiep.vn",
+      desc: "Báo Nông nghiệp Việt Nam",
+      imageUrl: "https://static.ex-cdn.com/nongnghiep.vn/v0.1.493/templates/themes/images/logo.png",
+      thumbUrl: "https://static.ex-cdn.com/nongnghiep.vn/v0.1.493/templates/themes/images/logo.png",
+      contactUrl: "https://nongnghiep.vn/thong-tin-toa-soan",
+      isLongImage: true,
       parserId: "parse_guide_1",
       languageId: "vi_VN"
     }
@@ -2660,7 +2726,7 @@
       name: "Kỳ án",
       desc: "",
       imageUrl: "",
-      rssUrl: "https://baovephapluat.vn/phap-dinh/ky-an",
+      rssUrl: "https://baovephapluat.vn/so-do-website/rss/31",
       parserId: null,
       languageId: "vi_VN",
       thematicId: "vi_vn_tmt",
@@ -2744,7 +2810,7 @@
       name: "Câu chuyện pháp luật",
       desc: "",
       imageUrl: "",
-      rssUrl: "https://baovephapluat.vn/phap-dinh/cau-chuyen-phap-luat",
+      rssUrl: "https://baovephapluat.vn/so-do-website/rss/32",
       parserId: null,
       languageId: "vi_VN",
       thematicId: "vi_vn_tmt",
@@ -2989,6 +3055,580 @@
       specializedPageId: "vi_vn_tmt_anninh_sp_quy_dinh",
       publisherId: "dangcongsanvn",
       maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_giadinhvaphapluat_the_gioi",
+      subId: 0,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://giadinhvaphapluat.vn/rss/the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "giadinhvaphapluat",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_viettimes_the_gioi",
+      subId: 0,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://viettimes.vn/rss/the-gioi-121.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "viettimes",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_vietnamnet_the_gioi",
+      subId: 0,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vietnamnet.vn/rss/the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "vietnamnet",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_dantri_diem_nong_the_gioi",
+      subId: 0,
+      name: "Điểm nóng thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://dantri.com.vn/the-gioi/diem-nong.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "dantri",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_vtv_the_gioi",
+      subId: 0,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vtv.vn/the-gioi/tin-tuc.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "vtv",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thethaovanhoa_the_gioi",
+      subId: 0,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thethaovanhoa.vn/the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "thethaovanhoa",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_vietbao_doi_ngoai",
+      subId: 0,
+      name: "Đối ngoại",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vietbao.vn/rss/doi-ngoai-1.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "vietbao",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_tuoitre_the_gioi",
+      subId: 1,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://tuoitre.vn/rss/the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "tuoitre",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_plo_quoc_te",
+      subId: 0,
+      name: "Quốc tế",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://plo.vn/rss/quoc-te-8.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "plo",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_vnexpress_the_gioi",
+      subId: 1,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vnexpress.net/rss/the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "vnexpress",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_doisongphapluat_the_gioi",
+      subId: 1,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.doisongphapluat.com/rss/tin-the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tong_hop",
+      publisherId: "doisongphapluat",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_danviet_vu_khi_quan_su",
+      subId: 0,
+      name: "Vũ khí - Quân sự",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://danviet.vn/rss/vu-khi-quan-su-1031.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "danviet",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thongtanxavn_an_ninh_quoc_phong",
+      subId: 0,
+      name: "An ninh - Quốc phòng",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vnanet.vn/vi/rss/an-ninh-quoc-phong-16.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "thongtanxavn",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_nguoiduatin_quan_su",
+      subId: 0,
+      name: "Quân sự",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.nguoiduatin.vn/rss/quan-su.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "nguoiduatin",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thanhnien_quan_su",
+      subId: 1,
+      name: "Quân sự",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thanhnien.vn/rss/the-gioi/quan-su.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "thanhnien",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_cand_vu_khi_chien_tranh",
+      subId: 0,
+      name: "Vũ khí - Chiến tranh",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "http://cand.com.vn/rss/Vu-khi-Chien-tranh/",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "cand",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_kienthuc_quan_su",
+      subId: 0,
+      name: "Quân sự",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://kienthuc.net.vn/rss/quan-su-26.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "kienthuc",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_nongnghiep_vu_khi",
+      subId: 0,
+      name: "Vũ khí",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://nongnghiep.vn/vu-khi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_quan_su",
+      publisherId: "nongnghiep",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thitruongtaichinhtiente_nhin_ra_the_gioi",
+      subId: 0,
+      name: "Nhìn ra thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thitruongtaichinhtiente.vn/rss/nhin-ra-the-gioi",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_kinh_te",
+      publisherId: "thitruongtaichinhtiente",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_vneconomy_the_gioi",
+      subId: 0,
+      name: "Thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vneconomy.vn/rss/the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_kinh_te",
+      publisherId: "vneconomy",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thanhnien_kinh_te_the_gioi",
+      subId: 0,
+      name: "Kinh tế thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thanhnien.vn/rss/the-gioi/kinh-te-the-gioi.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_kinh_te",
+      publisherId: "thanhnien",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_baodautu_quoc_te",
+      subId: 0,
+      name: "Quốc tế",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://baodautu.vn/quoc-te.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_kinh_te",
+      publisherId: "baodautu",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_danviet_ho_so_tu_lieu",
+      subId: 0,
+      name: "Hồ sơ tư liệu",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://danviet.vn/rss/ho-so-tu-lieu-1062.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "danviet",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_dantri_tu_lieu_the_gioi",
+      subId: 0,
+      name: "Tư liệu thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://dantri.com.vn/the-gioi/tu-lieu.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "dantri",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_sggp_ho_so_tu_lieu",
+      subId: 0,
+      name: "Hồ sơ tư liệu",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.sggp.org.vn/rss/ho-so-tu-lieu-85.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "sggp",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_nguoiduatin_ho_so",
+      subId: 0,
+      name: "Kinh tế",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.nguoiduatin.vn/rss/ho-so.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "nguoiduatin",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thanhnien_ho_so_the_gioi",
+      subId: 0,
+      name: "Hồ sơ thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thanhnien.vn/rss/the-gioi/ho-so.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "thanhnien",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_cand_tu_lieu_quoc_te",
+      subId: 0,
+      name: "Tư liệu quốc tế",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "http://cand.com.vn/rss/tu-lieu-quoc-te/",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "cand",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_congly_vu_an_noi_tieng",
+      subId: 0,
+      name: "Vụ án nổi tiếng",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://congly.vn/rss/the-gioi/vu-an-noi-tieng",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_tu_lieu",
+      publisherId: "congly",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_danviet_goc_chuyen_gia",
+      subId: 0,
+      name: "Góc chuyên gia",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://danviet.vn/rss/goc-chuyen-gia-1063.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_binh_luan",
+      publisherId: "danviet",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_tienphong_phan_tich_binh_luan_quoc_te",
+      subId: 0,
+      name: "Bình luận quốc tế",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.tienphong.vn/rss/the-gioi-phan-tich-binh-luan-31.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_binh_luan",
+      publisherId: "tienphong",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thanhnien_goc_nhin_the_gioi",
+      subId: 0,
+      name: "Góc nhìn thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thanhnien.vn/rss/the-gioi/goc-nhin.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_binh_luan",
+      publisherId: "thanhnien",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_cand_binh_luan_quoc_te",
+      subId: 0,
+      name: "Bình luận quốc tế",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "http://cand.com.vn/rss/Binh-luan-quoc-te/",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_binh_luan",
+      publisherId: "cand",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_danviet_nong_san_doc_la",
+      subId: 0,
+      name: "Nông sản độc - lạ thế giới",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://danviet.vn/rss/nong-san-doc-la-the-gioi-1149.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "danviet",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_vtv_the_gioi_do_day",
+      subId: 0,
+      name: "Thế giới đó đây",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://vtv.vn/the-gioi/the-gioi-do-day.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "vtv",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_sggp_chuyen_do_day",
+      subId: 0,
+      name: "Chuyện đó đây",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.sggp.org.vn/rss/chuyen-do-day-251.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "sggp",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_tienphong_chuyen_la",
+      subId: 0,
+      name: "Chuyện lạ",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://www.tienphong.vn/rss/chuyen-la-32.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "tienphong",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_thanhnien_chuyen_la",
+      subId: 0,
+      name: "Chuyện lạ",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://thanhnien.vn/rss/the-gioi/chuyen-la.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "thanhnien",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_baocantho_chuyen_bon_phuong",
+      subId: 0,
+      name: "Chuyện bốn phương",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://baocantho.com.vn/rss/subcate/chuyen-bon-phuong/",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "baocantho",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_nongnghiep_cuoc_song_muon_mau",
+      subId: 0,
+      name: "Cuộc sống muôn màu",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://nongnghiep.vn/cuoc-song-muon-mau.rss",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "nongnghiep",
+      maxFeedPerSp: 10
+    },
+	{
+      id: "vn_vi_cat_congly_chuyen_bon_phuong",
+      subId: 0,
+      name: "Chuyện bốn phương",
+      desc: "",
+      imageUrl: "",
+      rssUrl: "https://congly.vn/rss/the-gioi/chuyen-la-bon-phuong",
+      parserId: null,
+      languageId: "vi_VN",
+      thematicId: "vi_vn_tmt_the_gioi",
+      specializedPageId: "vi_vn_tmt_thegioi_sp_the_gioi_do_day",
+      publisherId: "congly",
+      maxFeedPerSp: 10
     }
   ],
   parseGuides: [
@@ -3027,6 +3667,156 @@
       id: "parse_guide_7",
       dateFormat: "MM/d/yyyy hh:mm:ss a",
 	  timeZone:"GMT+7"
+    },
+	{
+      id: "parse_guide_antt",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  sourceRegex:"rcreplace<###>(-n\\d+.html)<###>sreplace<^^^>n<^^^>,sreplace<###>html<###>htm",
+	  contentRegex:"sreplace<###><image><###><media:thumbnail url=',sreplace<###></image><###>'/>"
+    },
+	{
+      id: "parse_guide_tuoitre",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>zoom/80_50/<###>"
+    },
+	{
+      id: "parse_guide_thanhnien",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  imageRegex="sreplace<###>180/<###>"
+    },
+	{
+      id: "parse_guide_vtv",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>zoom/80_50/<###>"
+    },
+	{
+      id: "parse_guide_tienphong",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  imageRegex="sreplace<###>80x80/<###>"
+    },
+	{
+      id: "parse_guide_baodautu",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>thumb_x240x150/<###>"
+    },
+	{
+      id: "parse_guide_vneconomy",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>zoom/80_50/<###>",
+	  stripHtml: true,
+	  rgtfd:true
+    },
+	{
+      id: "parse_guide_sggp",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>80x80/<###>w570/"
+    },
+	{
+      id: "parse_guide_thethao247",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>resize_100x64/<###>"
+    },
+	{
+      id: "parse_guide_cafebiz",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  headers:{
+	  "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+	  },
+	  imageRegex="sreplace<###>zoom/110_69/<###>"
+    },
+	{
+      id: "parse_guide_cafef",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  headers:{
+	  "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+	  },
+	  imageRegex="sreplace<###>zoom/100_62/<###>"
+    },
+	{
+      id: "parse_guide_soha",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  headers:{
+	  "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+	  },
+	  imageRegex="sreplace<###>zoom/80_50/<###>"
+    },
+	{
+      id: "parse_guide_kenh14",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  headers:{
+	  "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+	  },
+	  imageRegex="sreplace<###>zoom/110_69/<###>"
+    },
+	{
+      id: "parse_guide_afamily",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>zoom/100_62/<###>",
+	  headers:{
+	  "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+	  }
+    },
+	{
+      id: "parse_guide_24h",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  rgtfdwsqa: true
+    },
+	{
+      id: "parse_guide_bongda24h",
+      dateFormat: "yyyy/MM/dd HH:mm:ss",
+	  timeZone:"GMT+7"
+    },
+	{
+      id: "parse_guide_bongda",
+      dateFormat: "dd/MM/yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  contentRegex:"sreplace<###><image><###><media:thumbnail url=',sreplace<###></image><###>'/>"
+    },
+	{
+      id: "parse_guide_thongtanxavn",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  rgtfdwsqa: true
+    },
+	{
+      id: "parse_guide_autopro",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  imageRegex="sreplace<###>thumb_w/100<###>zoom/224_140",
+	  headers:{
+	  "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"
+	  }
+    },
+	{
+      id: "parse_guide_baocantho",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  imageRegex="sreplace<###>thumbnail/112x62<###>thumbnail/470x300"
+    },
+	{
+      id: "parse_guide_bocongan",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss",
+	  timeZone:"GMT+7",
+	  rgtfdwsqa: true
+    },
+	{
+      id: "parse_guide_khoahocdoisong",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  stripHtmlContent: true,
+	  rgtfc: true
+    },
+	{
+      id: "parse_guide_eva",
+      dateFormat: "EEE, dd MMM yyyy HH:mm:ss Z",
+	  contentRegex:"sreplace<###><description><###><description><![CDATA[,sreplace<###></description><###>]]></description>"
     }
   ]
 }
